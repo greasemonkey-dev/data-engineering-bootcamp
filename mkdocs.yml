@@ -1,0 +1,158 @@
+site_name: Data Engineering Bootcamp
+site_description: Comprehensive data engineering course for software engineers transitioning to data roles
+site_author: Data Engineering Bootcamp Team
+site_url: https://yourusername.github.io/data-engineering-course/
+
+# Repository
+repo_name: data-engineering-course
+repo_url: https://github.com/yourusername/data-engineering-course
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2026 Data Engineering Bootcamp
+
+# Theme Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Plugins
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-\.]+'
+  - minify:
+      minify_html: true
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extra JavaScript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Navigation
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+
+  - Chapters:
+    - Chapter 1 - Python & SQL Foundations:
+      - Content: chapters/01-python-sql-foundations/index.md
+      - Quiz: chapters/01-python-sql-foundations/quiz.md
+    - Chapter 2 - Git & Docker:
+      - Content: chapters/02-git-docker/index.md
+      - Quiz: chapters/02-git-docker/quiz.md
+    - Chapter 3 - Database Modeling:
+      - Content: chapters/03-database-modeling/index.md
+      - Quiz: chapters/03-database-modeling/quiz.md
+    - Chapter 4 - Data Warehousing:
+      - Content: chapters/04-data-warehousing/index.md
+      - Quiz: chapters/04-data-warehousing/quiz.md
+
+  - Interactive MicroSims:
+    - SQL Execution Plan Visualizer: sims/sql-execution-plan/spec.md
+    - Git Merge vs Rebase: sims/git-merge-rebase/spec.md
+    - Star vs Snowflake Schema: sims/star-vs-snowflake/spec.md
+    - Database Normalization: sims/normalization-journey/spec.md
+    - BigQuery Partitioning: sims/bigquery-partitioning/spec.md
+    - Slowly Changing Dimensions: sims/scd-timeline/spec.md
+
+  - Resources:
+    - Glossary: glossary.md
+    - FAQ: faq.md
+    - Learning Graph: learning-graph/learning-graph.json
+    - Quiz Guide: chapters/INDEX.md
+    - Instructor Guide: chapters/INSTRUCTOR_GUIDE.md
+
+# Social
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/data-engineering-course
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX  # Replace with your Google Analytics ID
+  generator: false
+
+# Additional Configuration
+strict: true
+use_directory_urls: true

@@ -1,0 +1,964 @@
+{
+  "concepts": [
+    {
+      "id": "python-fundamentals",
+      "label": "Python Fundamentals",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "variables-assignment",
+      "label": "Variables & Assignment",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "data-types",
+      "label": "Data Types",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "control-flow",
+      "label": "Control Flow",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "functions-basics",
+      "label": "Functions Basics",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "sql-select",
+      "label": "SQL SELECT",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "sql-where",
+      "label": "SQL WHERE Clauses",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "sql-join",
+      "label": "SQL JOIN",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "bash-basics",
+      "label": "Bash Basics",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "git-fundamentals",
+      "label": "Git Fundamentals",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "linux-filesystem",
+      "label": "Linux Filesystem",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "docker-basics",
+      "label": "Docker Basics",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "relational-model",
+      "label": "Relational Model",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "nosql-basics",
+      "label": "NoSQL Basics",
+      "category": "FOUND",
+      "dependencies": []
+    },
+    {
+      "id": "lists",
+      "label": "Lists",
+      "category": "BASIC",
+      "dependencies": ["data-types"]
+    },
+    {
+      "id": "dictionaries",
+      "label": "Dictionaries",
+      "category": "BASIC",
+      "dependencies": ["data-types"]
+    },
+    {
+      "id": "tuples",
+      "label": "Tuples",
+      "category": "BASIC",
+      "dependencies": ["data-types"]
+    },
+    {
+      "id": "sets",
+      "label": "Sets",
+      "category": "BASIC",
+      "dependencies": ["data-types"]
+    },
+    {
+      "id": "loops-iteration",
+      "label": "Loops & Iteration",
+      "category": "BASIC",
+      "dependencies": ["control-flow"]
+    },
+    {
+      "id": "conditionals",
+      "label": "Conditionals",
+      "category": "BASIC",
+      "dependencies": ["control-flow"]
+    },
+    {
+      "id": "function-arguments",
+      "label": "Function Arguments",
+      "category": "BASIC",
+      "dependencies": ["functions-basics"]
+    },
+    {
+      "id": "return-values",
+      "label": "Return Values",
+      "category": "BASIC",
+      "dependencies": ["functions-basics"]
+    },
+    {
+      "id": "sql-aggregate",
+      "label": "SQL Aggregate Functions",
+      "category": "BASIC",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "sql-groupby",
+      "label": "SQL GROUP BY",
+      "category": "BASIC",
+      "dependencies": ["sql-aggregate"]
+    },
+    {
+      "id": "sql-orderby",
+      "label": "SQL ORDER BY",
+      "category": "BASIC",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "sql-distinct",
+      "label": "SQL DISTINCT",
+      "category": "BASIC",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "sql-limit",
+      "label": "SQL LIMIT",
+      "category": "BASIC",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "bash-commands",
+      "label": "Bash Commands",
+      "category": "BASIC",
+      "dependencies": ["bash-basics"]
+    },
+    {
+      "id": "bash-pipes",
+      "label": "Bash Pipes & Redirection",
+      "category": "BASIC",
+      "dependencies": ["bash-basics"]
+    },
+    {
+      "id": "file-permissions",
+      "label": "File Permissions",
+      "category": "BASIC",
+      "dependencies": ["linux-filesystem"]
+    },
+    {
+      "id": "git-clone-commit",
+      "label": "Git Clone & Commit",
+      "category": "BASIC",
+      "dependencies": ["git-fundamentals"]
+    },
+    {
+      "id": "git-push-pull",
+      "label": "Git Push & Pull",
+      "category": "BASIC",
+      "dependencies": ["git-clone-commit"]
+    },
+    {
+      "id": "dockerfile",
+      "label": "Dockerfile",
+      "category": "BASIC",
+      "dependencies": ["docker-basics"]
+    },
+    {
+      "id": "docker-images",
+      "label": "Docker Images",
+      "category": "BASIC",
+      "dependencies": ["docker-basics"]
+    },
+    {
+      "id": "docker-containers",
+      "label": "Docker Containers",
+      "category": "BASIC",
+      "dependencies": ["docker-basics"]
+    },
+    {
+      "id": "table-creation",
+      "label": "Table Creation",
+      "category": "BASIC",
+      "dependencies": ["relational-model"]
+    },
+    {
+      "id": "primary-keys",
+      "label": "Primary Keys",
+      "category": "BASIC",
+      "dependencies": ["table-creation"]
+    },
+    {
+      "id": "foreign-keys",
+      "label": "Foreign Keys",
+      "category": "BASIC",
+      "dependencies": ["primary-keys"]
+    },
+    {
+      "id": "document-structure",
+      "label": "Document Structure",
+      "category": "BASIC",
+      "dependencies": ["nosql-basics"]
+    },
+    {
+      "id": "mongodb-basics",
+      "label": "MongoDB Basics",
+      "category": "BASIC",
+      "dependencies": ["nosql-basics"]
+    },
+    {
+      "id": "redis-basics",
+      "label": "Redis Basics",
+      "category": "BASIC",
+      "dependencies": ["nosql-basics"]
+    },
+    {
+      "id": "oltp-olap",
+      "label": "OLTP vs OLAP",
+      "category": "BASIC",
+      "dependencies": ["relational-model"]
+    },
+    {
+      "id": "list-comprehensions",
+      "label": "List Comprehensions",
+      "category": "INTER",
+      "dependencies": ["lists", "loops-iteration"]
+    },
+    {
+      "id": "dict-comprehensions",
+      "label": "Dict Comprehensions",
+      "category": "INTER",
+      "dependencies": ["dictionaries", "loops-iteration"]
+    },
+    {
+      "id": "set-comprehensions",
+      "label": "Set Comprehensions",
+      "category": "INTER",
+      "dependencies": ["sets", "loops-iteration"]
+    },
+    {
+      "id": "generators",
+      "label": "Generators",
+      "category": "INTER",
+      "dependencies": ["functions-basics", "loops-iteration"]
+    },
+    {
+      "id": "iterators",
+      "label": "Iterators",
+      "category": "INTER",
+      "dependencies": ["loops-iteration"]
+    },
+    {
+      "id": "iterator-protocol",
+      "label": "Iterator Protocol",
+      "category": "INTER",
+      "dependencies": ["iterators"]
+    },
+    {
+      "id": "context-managers",
+      "label": "Context Managers",
+      "category": "INTER",
+      "dependencies": ["functions-basics"]
+    },
+    {
+      "id": "decorators",
+      "label": "Decorators",
+      "category": "INTER",
+      "dependencies": ["functions-basics", "function-arguments"]
+    },
+    {
+      "id": "decorator-parameters",
+      "label": "Decorator Parameters",
+      "category": "ADV",
+      "dependencies": ["decorators"]
+    },
+    {
+      "id": "lambda-functions",
+      "label": "Lambda Functions",
+      "category": "INTER",
+      "dependencies": ["functions-basics"]
+    },
+    {
+      "id": "map-filter-reduce",
+      "label": "Map Filter Reduce",
+      "category": "INTER",
+      "dependencies": ["lambda-functions"]
+    },
+    {
+      "id": "sql-subqueries",
+      "label": "SQL Subqueries",
+      "category": "INTER",
+      "dependencies": ["sql-select", "sql-where"]
+    },
+    {
+      "id": "sql-cte",
+      "label": "SQL CTE",
+      "category": "INTER",
+      "dependencies": ["sql-subqueries"]
+    },
+    {
+      "id": "sql-window-functions",
+      "label": "SQL Window Functions",
+      "category": "INTER",
+      "dependencies": ["sql-groupby", "sql-orderby"]
+    },
+    {
+      "id": "row-number",
+      "label": "ROW_NUMBER Function",
+      "category": "INTER",
+      "dependencies": ["sql-window-functions"]
+    },
+    {
+      "id": "rank-dense-rank",
+      "label": "RANK & DENSE_RANK",
+      "category": "INTER",
+      "dependencies": ["sql-window-functions"]
+    },
+    {
+      "id": "lag-lead",
+      "label": "LAG & LEAD Functions",
+      "category": "INTER",
+      "dependencies": ["sql-window-functions"]
+    },
+    {
+      "id": "running-totals",
+      "label": "Running Totals",
+      "category": "INTER",
+      "dependencies": ["sql-window-functions"]
+    },
+    {
+      "id": "sql-unions",
+      "label": "SQL UNION",
+      "category": "INTER",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "inner-join",
+      "label": "Inner JOIN",
+      "category": "INTER",
+      "dependencies": ["sql-join"]
+    },
+    {
+      "id": "left-join",
+      "label": "Left JOIN",
+      "category": "INTER",
+      "dependencies": ["sql-join"]
+    },
+    {
+      "id": "right-join",
+      "label": "Right JOIN",
+      "category": "INTER",
+      "dependencies": ["sql-join"]
+    },
+    {
+      "id": "full-outer-join",
+      "label": "Full Outer JOIN",
+      "category": "INTER",
+      "dependencies": ["sql-join"]
+    },
+    {
+      "id": "cross-join",
+      "label": "Cross JOIN",
+      "category": "INTER",
+      "dependencies": ["sql-join"]
+    },
+    {
+      "id": "self-join",
+      "label": "Self JOIN",
+      "category": "INTER",
+      "dependencies": ["sql-join"]
+    },
+    {
+      "id": "sql-case",
+      "label": "SQL CASE Statement",
+      "category": "INTER",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "date-functions",
+      "label": "Date Functions",
+      "category": "INTER",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "string-functions",
+      "label": "String Functions",
+      "category": "INTER",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "bash-scripting",
+      "label": "Bash Scripting",
+      "category": "INTER",
+      "dependencies": ["bash-commands"]
+    },
+    {
+      "id": "bash-variables",
+      "label": "Bash Variables",
+      "category": "INTER",
+      "dependencies": ["bash-scripting"]
+    },
+    {
+      "id": "bash-loops",
+      "label": "Bash Loops",
+      "category": "INTER",
+      "dependencies": ["bash-scripting"]
+    },
+    {
+      "id": "bash-conditionals",
+      "label": "Bash Conditionals",
+      "category": "INTER",
+      "dependencies": ["bash-scripting"]
+    },
+    {
+      "id": "bash-functions",
+      "label": "Bash Functions",
+      "category": "INTER",
+      "dependencies": ["bash-scripting"]
+    },
+    {
+      "id": "process-management",
+      "label": "Process Management",
+      "category": "INTER",
+      "dependencies": ["bash-basics"]
+    },
+    {
+      "id": "git-branching",
+      "label": "Git Branching",
+      "category": "INTER",
+      "dependencies": ["git-clone-commit"]
+    },
+    {
+      "id": "git-merge",
+      "label": "Git Merge",
+      "category": "INTER",
+      "dependencies": ["git-branching"]
+    },
+    {
+      "id": "git-rebase",
+      "label": "Git Rebase",
+      "category": "INTER",
+      "dependencies": ["git-branching"]
+    },
+    {
+      "id": "merge-vs-rebase",
+      "label": "Merge vs Rebase",
+      "category": "INTER",
+      "dependencies": ["git-merge", "git-rebase"]
+    },
+    {
+      "id": "pull-requests",
+      "label": "Pull Requests",
+      "category": "INTER",
+      "dependencies": ["git-push-pull"]
+    },
+    {
+      "id": "docker-compose",
+      "label": "Docker Compose",
+      "category": "INTER",
+      "dependencies": ["dockerfile", "docker-containers"]
+    },
+    {
+      "id": "docker-volumes",
+      "label": "Docker Volumes",
+      "category": "INTER",
+      "dependencies": ["docker-containers"]
+    },
+    {
+      "id": "docker-networks",
+      "label": "Docker Networks",
+      "category": "INTER",
+      "dependencies": ["docker-containers"]
+    },
+    {
+      "id": "container-communication",
+      "label": "Container Communication",
+      "category": "INTER",
+      "dependencies": ["docker-networks"]
+    },
+    {
+      "id": "normalization",
+      "label": "Normalization",
+      "category": "INTER",
+      "dependencies": ["relational-model", "foreign-keys"]
+    },
+    {
+      "id": "first-normal-form",
+      "label": "First Normal Form",
+      "category": "INTER",
+      "dependencies": ["normalization"]
+    },
+    {
+      "id": "second-normal-form",
+      "label": "Second Normal Form",
+      "category": "INTER",
+      "dependencies": ["first-normal-form"]
+    },
+    {
+      "id": "third-normal-form",
+      "label": "Third Normal Form",
+      "category": "INTER",
+      "dependencies": ["second-normal-form"]
+    },
+    {
+      "id": "boyce-codd-nf",
+      "label": "Boyce-Codd Normal Form",
+      "category": "ADV",
+      "dependencies": ["third-normal-form"]
+    },
+    {
+      "id": "database-indexes",
+      "label": "Database Indexes",
+      "category": "INTER",
+      "dependencies": ["table-creation"]
+    },
+    {
+      "id": "btree-indexes",
+      "label": "B-Tree Indexes",
+      "category": "INTER",
+      "dependencies": ["database-indexes"]
+    },
+    {
+      "id": "hash-indexes",
+      "label": "Hash Indexes",
+      "category": "INTER",
+      "dependencies": ["database-indexes"]
+    },
+    {
+      "id": "composite-indexes",
+      "label": "Composite Indexes",
+      "category": "INTER",
+      "dependencies": ["database-indexes"]
+    },
+    {
+      "id": "query-optimization",
+      "label": "Query Optimization",
+      "category": "INTER",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "execution-plans",
+      "label": "Execution Plans",
+      "category": "INTER",
+      "dependencies": ["query-optimization"]
+    },
+    {
+      "id": "query-explain",
+      "label": "EXPLAIN & ANALYZE",
+      "category": "INTER",
+      "dependencies": ["execution-plans"]
+    },
+    {
+      "id": "constraint-types",
+      "label": "Constraint Types",
+      "category": "INTER",
+      "dependencies": ["table-creation"]
+    },
+    {
+      "id": "unique-constraints",
+      "label": "Unique Constraints",
+      "category": "INTER",
+      "dependencies": ["constraint-types"]
+    },
+    {
+      "id": "check-constraints",
+      "label": "Check Constraints",
+      "category": "INTER",
+      "dependencies": ["constraint-types"]
+    },
+    {
+      "id": "not-null-constraints",
+      "label": "Not Null Constraints",
+      "category": "INTER",
+      "dependencies": ["constraint-types"]
+    },
+    {
+      "id": "default-values",
+      "label": "Default Values",
+      "category": "INTER",
+      "dependencies": ["constraint-types"]
+    },
+    {
+      "id": "postgresql-extensions",
+      "label": "PostgreSQL Extensions",
+      "category": "INTER",
+      "dependencies": ["table-creation"]
+    },
+    {
+      "id": "views-materialized",
+      "label": "Views & Materialized Views",
+      "category": "INTER",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "stored-procedures",
+      "label": "Stored Procedures",
+      "category": "ADV",
+      "dependencies": ["sql-select"]
+    },
+    {
+      "id": "triggers",
+      "label": "Triggers",
+      "category": "ADV",
+      "dependencies": ["stored-procedures"]
+    },
+    {
+      "id": "mongodb-queries",
+      "label": "MongoDB Queries",
+      "category": "INTER",
+      "dependencies": ["mongodb-basics"]
+    },
+    {
+      "id": "mongodb-indexes",
+      "label": "MongoDB Indexes",
+      "category": "INTER",
+      "dependencies": ["mongodb-queries"]
+    },
+    {
+      "id": "mongodb-aggregation",
+      "label": "MongoDB Aggregation",
+      "category": "INTER",
+      "dependencies": ["mongodb-queries"]
+    },
+    {
+      "id": "mongodb-transactions",
+      "label": "MongoDB Transactions",
+      "category": "ADV",
+      "dependencies": ["mongodb-aggregation"]
+    },
+    {
+      "id": "redis-datatypes",
+      "label": "Redis Data Types",
+      "category": "INTER",
+      "dependencies": ["redis-basics"]
+    },
+    {
+      "id": "redis-operations",
+      "label": "Redis Operations",
+      "category": "INTER",
+      "dependencies": ["redis-datatypes"]
+    },
+    {
+      "id": "redis-expiration",
+      "label": "Redis Key Expiration",
+      "category": "INTER",
+      "dependencies": ["redis-operations"]
+    },
+    {
+      "id": "redis-caching",
+      "label": "Redis Caching Strategy",
+      "category": "INTER",
+      "dependencies": ["redis-expiration"]
+    },
+    {
+      "id": "cap-theorem",
+      "label": "CAP Theorem",
+      "category": "INTER",
+      "dependencies": ["nosql-basics"]
+    },
+    {
+      "id": "eventual-consistency",
+      "label": "Eventual Consistency",
+      "category": "INTER",
+      "dependencies": ["cap-theorem"]
+    },
+    {
+      "id": "consistency-models",
+      "label": "Consistency Models",
+      "category": "INTER",
+      "dependencies": ["eventual-consistency"]
+    },
+    {
+      "id": "data-warehousing",
+      "label": "Data Warehousing",
+      "category": "INTER",
+      "dependencies": ["oltp-olap"]
+    },
+    {
+      "id": "dimensional-modeling",
+      "label": "Dimensional Modeling",
+      "category": "INTER",
+      "dependencies": ["data-warehousing"]
+    },
+    {
+      "id": "fact-tables",
+      "label": "Fact Tables",
+      "category": "INTER",
+      "dependencies": ["dimensional-modeling"]
+    },
+    {
+      "id": "dimension-tables",
+      "label": "Dimension Tables",
+      "category": "INTER",
+      "dependencies": ["dimensional-modeling"]
+    },
+    {
+      "id": "star-schema",
+      "label": "Star Schema",
+      "category": "INTER",
+      "dependencies": ["fact-tables", "dimension-tables"]
+    },
+    {
+      "id": "snowflake-schema",
+      "label": "Snowflake Schema",
+      "category": "INTER",
+      "dependencies": ["fact-tables", "dimension-tables"]
+    },
+    {
+      "id": "schema-comparison",
+      "label": "Schema Design Tradeoffs",
+      "category": "INTER",
+      "dependencies": ["star-schema", "snowflake-schema"]
+    },
+    {
+      "id": "slowly-changing-dims",
+      "label": "Slowly Changing Dimensions",
+      "category": "INTER",
+      "dependencies": ["dimension-tables"]
+    },
+    {
+      "id": "scd-type-1",
+      "label": "SCD Type 1",
+      "category": "INTER",
+      "dependencies": ["slowly-changing-dims"]
+    },
+    {
+      "id": "scd-type-2",
+      "label": "SCD Type 2",
+      "category": "INTER",
+      "dependencies": ["slowly-changing-dims"]
+    },
+    {
+      "id": "scd-type-3",
+      "label": "SCD Type 3",
+      "category": "INTER",
+      "dependencies": ["slowly-changing-dims"]
+    },
+    {
+      "id": "surrogate-keys",
+      "label": "Surrogate Keys",
+      "category": "INTER",
+      "dependencies": ["dimension-tables"]
+    },
+    {
+      "id": "conformed-dimensions",
+      "label": "Conformed Dimensions",
+      "category": "ADV",
+      "dependencies": ["dimension-tables"]
+    },
+    {
+      "id": "degenerate-dimensions",
+      "label": "Degenerate Dimensions",
+      "category": "ADV",
+      "dependencies": ["fact-tables"]
+    },
+    {
+      "id": "bridge-tables",
+      "label": "Bridge Tables",
+      "category": "ADV",
+      "dependencies": ["snowflake-schema"]
+    },
+    {
+      "id": "denormalization",
+      "label": "Denormalization",
+      "category": "INTER",
+      "dependencies": ["normalization"]
+    },
+    {
+      "id": "data-lakes",
+      "label": "Data Lakes",
+      "category": "INTER",
+      "dependencies": ["data-warehousing"]
+    },
+    {
+      "id": "lake-vs-warehouse",
+      "label": "Lake vs Warehouse",
+      "category": "INTER",
+      "dependencies": ["data-lakes", "data-warehousing"]
+    },
+    {
+      "id": "data-governance",
+      "label": "Data Governance",
+      "category": "INTER",
+      "dependencies": ["data-lakes"]
+    },
+    {
+      "id": "schema-registry",
+      "label": "Schema Registry",
+      "category": "ADV",
+      "dependencies": ["data-governance"]
+    },
+    {
+      "id": "bigquery-basics",
+      "label": "BigQuery Basics",
+      "category": "INTER",
+      "dependencies": ["data-warehousing"]
+    },
+    {
+      "id": "bigquery-architecture",
+      "label": "BigQuery Architecture",
+      "category": "INTER",
+      "dependencies": ["bigquery-basics"]
+    },
+    {
+      "id": "bigquery-partitioning",
+      "label": "BigQuery Partitioning",
+      "category": "INTER",
+      "dependencies": ["bigquery-architecture"]
+    },
+    {
+      "id": "bigquery-clustering",
+      "label": "BigQuery Clustering",
+      "category": "INTER",
+      "dependencies": ["bigquery-architecture"]
+    },
+    {
+      "id": "bigquery-optimization",
+      "label": "BigQuery Optimization",
+      "category": "INTER",
+      "dependencies": ["bigquery-partitioning", "bigquery-clustering"]
+    },
+    {
+      "id": "bigquery-pricing",
+      "label": "BigQuery Pricing Model",
+      "category": "INTER",
+      "dependencies": ["bigquery-basics"]
+    },
+    {
+      "id": "bigquery-storage",
+      "label": "BigQuery Storage API",
+      "category": "ADV",
+      "dependencies": ["bigquery-architecture"]
+    },
+    {
+      "id": "data-types-bigquery",
+      "label": "BigQuery Data Types",
+      "category": "INTER",
+      "dependencies": ["bigquery-basics"]
+    },
+    {
+      "id": "nested-repeated",
+      "label": "Nested & Repeated Fields",
+      "category": "INTER",
+      "dependencies": ["data-types-bigquery"]
+    },
+    {
+      "id": "etl-concepts",
+      "label": "ETL Concepts",
+      "category": "APP",
+      "dependencies": ["data-warehousing", "python-fundamentals"]
+    },
+    {
+      "id": "data-validation",
+      "label": "Data Validation",
+      "category": "INTER",
+      "dependencies": ["etl-concepts"]
+    },
+    {
+      "id": "data-quality",
+      "label": "Data Quality",
+      "category": "INTER",
+      "dependencies": ["data-validation"]
+    },
+    {
+      "id": "incremental-loading",
+      "label": "Incremental Loading",
+      "category": "ADV",
+      "dependencies": ["etl-concepts"]
+    },
+    {
+      "id": "full-refresh",
+      "label": "Full Refresh Strategy",
+      "category": "INTER",
+      "dependencies": ["etl-concepts"]
+    },
+    {
+      "id": "python-etl-pipeline",
+      "label": "Python ETL Pipeline",
+      "category": "APP",
+      "dependencies": ["etl-concepts", "generators", "context-managers"]
+    },
+    {
+      "id": "sql-performance-tuning",
+      "label": "SQL Performance Tuning",
+      "category": "ADV",
+      "dependencies": ["execution-plans", "database-indexes"]
+    },
+    {
+      "id": "schema-design-practice",
+      "label": "Schema Design Practice",
+      "category": "APP",
+      "dependencies": ["third-normal-form", "denormalization"]
+    },
+    {
+      "id": "dimensional-design-practice",
+      "label": "Dimensional Design",
+      "category": "APP",
+      "dependencies": ["star-schema", "snowflake-schema", "slowly-changing-dims"]
+    },
+    {
+      "id": "bigquery-implementation",
+      "label": "BigQuery Implementation",
+      "category": "APP",
+      "dependencies": ["bigquery-optimization", "nested-repeated", "dimensional-design-practice"]
+    },
+    {
+      "id": "docker-deployment",
+      "label": "Docker Deployment",
+      "category": "APP",
+      "dependencies": ["docker-compose", "container-communication"]
+    },
+    {
+      "id": "git-team-workflow",
+      "label": "Git Team Workflow",
+      "category": "APP",
+      "dependencies": ["merge-vs-rebase", "pull-requests"]
+    },
+    {
+      "id": "container-orchestration",
+      "label": "Container Orchestration",
+      "category": "ADV",
+      "dependencies": ["docker-compose"]
+    },
+    {
+      "id": "version-control-strategy",
+      "label": "Version Control Strategy",
+      "category": "APP",
+      "dependencies": ["git-team-workflow"]
+    }
+  ]
+}

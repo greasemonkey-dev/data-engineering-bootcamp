@@ -1,0 +1,88 @@
+/* Custom CSS for Data Engineering Bootcamp */
+
+/* Upper alpha list styling for quiz questions */
+.upper-alpha {
+  list-style-type: upper-alpha;
+  padding-left: 1.5em;
+}
+
+.upper-alpha li {
+  margin-bottom: 0.5em;
+}
+
+/* Code block enhancements */
+.highlight {
+  margin: 1em 0;
+}
+
+/* Glossary term styling */
+h4 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+/* Quiz answer styling */
+.admonition.question {
+  border-left-color: #2196f3;
+}
+
+/* Try It exercise boxes */
+.admonition.tip {
+  border-left-color: #00bfa5;
+}
+
+/* Reflection questions */
+.admonition.note {
+  border-left-color: #9c27b0;
+}
+
+/* Learning objectives */
+.admonition.info {
+  border-left-color: #448aff;
+}
+
+/* Common pitfalls */
+.admonition.warning {
+  border-left-color: #ff9800;
+}
+
+/* Custom link colors */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Table styling for specifications */
+table {
+  width: 100%;
+  margin: 1em 0;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Code inline emphasis */
+code {
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Section dividers */
+hr {
+  margin: 2em 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] hr {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
