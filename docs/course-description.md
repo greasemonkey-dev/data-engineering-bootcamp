@@ -84,7 +84,7 @@ The course is designed with intentional cognitive progression:
 
 ### 4 Comprehensive Chapters
 
-#### Chapter 1: Python & SQL Foundations (2500 words)
+#### Chapter 1: Python & SQL Foundations
 **Learning Focus:** Apply advanced Python features and SQL techniques
 
 **Key Topics:**
@@ -98,7 +98,7 @@ The course is designed with intentional cognitive progression:
 - E-commerce analytics with window functions
 - Multi-step data transformations with CTEs
 
-#### Chapter 2: DevOps Foundations - Git & Docker (2800 words)
+#### Chapter 2: DevOps Foundations - Git & Docker
 **Learning Focus:** Apply collaborative development and containerization
 
 **Key Topics:**
@@ -112,7 +112,7 @@ The course is designed with intentional cognitive progression:
 - Containerizing Python ETL scripts
 - Multi-container setup with application + PostgreSQL database
 
-#### Chapter 3: Database Design & Modeling (3200 words)
+#### Chapter 3: Database Design & Modeling
 **Learning Focus:** Analyze and design efficient database schemas
 
 **Key Topics:**
@@ -128,7 +128,7 @@ The course is designed with intentional cognitive progression:
 - Choosing indexes for common query patterns
 - Deciding when denormalization is justified
 
-#### Chapter 4: Data Warehousing & BigQuery (3400 words)
+#### Chapter 4: Data Warehousing & BigQuery
 **Learning Focus:** Create dimensional models and optimize cloud warehouses
 
 **Key Topics:**
@@ -149,14 +149,14 @@ The course is designed with intentional cognitive progression:
 
 ## Learning Resources
 
-### Interactive Learning Graph (160 Concepts)
+### Interactive Learning Graph
 A visual knowledge map showing:
-- **14 foundational concepts** (entry points with no prerequisites)
+- **Foundational concepts** (entry points with no prerequisites)
 - **Dependency relationships** (what concepts build on others)
-- **5 taxonomy categories** (FOUND, BASIC, INTER, ADV, APP)
+- **Taxonomy categories** (FOUND, BASIC, INTER, ADV, APP)
 - **Multiple learning pathways** for flexible progression
 
-### Comprehensive Glossary (96 Terms)
+### Comprehensive Glossary
 ISO 11179-compliant definitions covering:
 - Python features (comprehensions, generators, context managers, decorators)
 - SQL concepts (window functions, CTEs, indexes, execution plans)
@@ -171,26 +171,26 @@ Each term includes:
 - Concrete example from data engineering domain
 - Alphabetical organization for quick reference
 
-### Frequently Asked Questions (34 Questions)
+### Frequently Asked Questions
 Organized into 4 categories:
-1. **Conceptual Clarifications (8 questions)** - "What's the difference between OLTP and OLAP?"
-2. **Common Misconceptions (6 questions)** - "Do I always need to normalize to 3NF?"
-3. **Practical Applications (10 questions)** - "When should I use MongoDB vs PostgreSQL?"
-4. **Prerequisites & Next Steps (10 questions)** - "What Python skills do I need before starting?"
+1. **Conceptual Clarifications** - "What's the difference between OLTP and OLAP?"
+2. **Common Misconceptions** - "Do I always need to normalize to 3NF?"
+3. **Practical Applications** - "When should I use MongoDB vs PostgreSQL?"
+4. **Prerequisites & Next Steps** - "What Python skills do I need before starting?"
 
-### Interactive MicroSims (6 Specifications)
+### Interactive MicroSims
 Detailed specifications for interactive visualizations:
 
-1. **SQL Query Execution Plan Visualizer** - See 766x performance improvement with proper indexing
+1. **SQL Query Execution Plan Visualizer** - See dramatic performance improvement with proper indexing
 2. **Git Merge vs Rebase Interactive** - Compare branching strategies side-by-side
 3. **Star Schema vs Snowflake Comparison** - Visualize dimensional modeling trade-offs
-4. **Database Normalization Journey** - Step through 1NF → 2NF → 3NF with real data
-5. **BigQuery Partitioning Cost Calculator** - Calculate 97% cost reduction with partitioning
-6. **Slowly Changing Dimension Timeline** - Compare SCD Types 1, 2, 3 with timeline visualization
+4. **Database Normalization Journey** - Step through normalization forms with real data
+5. **BigQuery Partitioning Cost Calculator** - Calculate cost reduction with partitioning
+6. **Slowly Changing Dimension Timeline** - Compare SCD types with timeline visualization
 
-### Chapter Quizzes (40 Questions Total)
-- 10 questions per chapter
-- Bloom's taxonomy alignment (20% Remember, 30% Understand, 32.5% Apply, 17.5% Analyze)
+### Chapter Quizzes
+- Assessment questions for each chapter
+- Bloom's taxonomy alignment across cognitive levels
 - Balanced answer distribution (A/B/C/D roughly equal)
 - Detailed explanations for each answer
 - Concept mapping to learning graph

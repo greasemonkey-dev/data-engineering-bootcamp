@@ -24,19 +24,19 @@ A comprehensive, interactive textbook for software engineers transitioning into 
 
 ## 🎮 Interactive Learning Resources
 
-### Learning Graph (160 Concepts)
+### Learning Graph
 Visual knowledge map showing concept dependencies and learning pathways
 - [View Learning Graph](docs/learning-graph/learning-graph.json)
 
-### Glossary (96 Terms)
+### Glossary
 ISO 11179-compliant definitions with real-world examples
 - [View Glossary](docs/glossary.md)
 
-### FAQ (34 Questions)
+### FAQ
 Common questions, misconceptions, and practical guidance
 - [View FAQ](docs/faq.md)
 
-### Interactive MicroSims (6 Visualizations)
+### Interactive MicroSims
 Specifications for interactive concept visualizations:
 - SQL Query Execution Plan Visualizer
 - Git Merge vs Rebase Interactive
@@ -100,8 +100,8 @@ data-engineering-course/
 ├── docs/                           # Course content
 │   ├── index.md                    # Course home page
 │   ├── course-description.md       # Detailed course info
-│   ├── glossary.md                 # Technical terms (96 entries)
-│   ├── faq.md                      # FAQ (34 questions)
+│   ├── glossary.md                 # Technical terms
+│   ├── faq.md                      # FAQ
 │   ├── chapters/                   # Chapter content and quizzes
 │   │   ├── 01-python-sql-foundations/
 │   │   ├── 02-git-docker/
@@ -138,12 +138,12 @@ data-engineering-course/
 
 ## 📊 Content Metrics
 
-- **Total Concepts:** 160 (in learning graph)
-- **Total Words:** ~12,000 (across 4 chapters)
-- **Quiz Questions:** 40 (10 per chapter)
-- **Glossary Terms:** 96
-- **FAQ Entries:** 34
-- **MicroSim Specs:** 6
+- **Learning Graph:** Comprehensive concept dependency map
+- **Course Content:** Four comprehensive chapters
+- **Quiz Questions:** Assessment for each chapter
+- **Glossary:** Technical terms with definitions
+- **FAQ:** Frequently asked questions
+- **MicroSim Specs:** Interactive visualization specifications
 
 ## 🎨 Teaching Philosophy
 

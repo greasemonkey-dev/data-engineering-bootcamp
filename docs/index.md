@@ -41,9 +41,9 @@ Build data warehouses with dimensional modeling. Compare OLTP vs OLAP systems, d
 
 ### Interactive Learning Tools
 
-- **[Learning Graph](learning-graph/learning-graph.json)** - Visual map of 160 concepts showing dependencies and learning pathways
-- **[Glossary](glossary.md)** - 96 technical terms with precise definitions and examples
-- **[FAQ](faq.md)** - 34 frequently asked questions covering common misconceptions and practical guidance
+- **[Learning Graph](learning-graph/learning-graph.json)** - Visual map showing concept dependencies and learning pathways
+- **[Glossary](glossary.md)** - Technical terms with precise definitions and examples
+- **[FAQ](faq.md)** - Frequently asked questions covering common misconceptions and practical guidance
 
 ### Interactive Visualizations (MicroSims)
 
@@ -60,10 +60,10 @@ Explore abstract concepts through interactive visualizations:
 
 Test your knowledge with Bloom's taxonomy-aligned quizzes:
 
-- [Chapter 1 Quiz: Python & SQL Foundations](chapters/01-python-sql-foundations/quiz.md) - 10 questions
-- [Chapter 2 Quiz: Git & Docker](chapters/02-git-docker/quiz.md) - 10 questions
-- [Chapter 3 Quiz: Database Modeling](chapters/03-database-modeling/quiz.md) - 10 questions
-- [Chapter 4 Quiz: Data Warehousing](chapters/04-data-warehousing/quiz.md) - 10 questions
+- [Chapter 1 Quiz: Python & SQL Foundations](chapters/01-python-sql-foundations/quiz.md)
+- [Chapter 2 Quiz: Git & Docker](chapters/02-git-docker/quiz.md)
+- [Chapter 3 Quiz: Database Modeling](chapters/03-database-modeling/quiz.md)
+- [Chapter 4 Quiz: Data Warehousing](chapters/04-data-warehousing/quiz.md)
 
 ---
 
