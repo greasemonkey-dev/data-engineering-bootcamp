@@ -33,24 +33,6 @@ Let's start with Python, then move to SQL. I'm going to tell you about some of m
 
 By the end of this chapter, you'll understand not just *what* these tools do, but *when* and *why* to use them. And maybe you'll avoid taking down production at 3 AM.
 
-### The Core Concept (in 15 seconds)
-
-Before we dive into the details, here's a visual explanation of the key difference between memory-hungry list comprehensions and efficient generators:
-
-<div style="text-align: center; margin: 2em 0;">
-  <video width="80%" controls loop muted playsinline style="max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
-    <source src="../../videos/generators-vs-lists.mp4" type="video/mp4">
-    <p>Your browser does not support the video tag. <a href="../../videos/generators-vs-lists.mp4">Download the video</a> instead.</p>
-  </video>
-</div>
-
-**What you're seeing:**
-
-- **Square → Brackets `[]`**: List comprehensions load everything into memory at once → "Out of Memory"
-- **Circle → Parentheses `()`**: Generators stream data one item at a time → "Streaming ✓"
-
-One character. Everything changes.
-
 ## Section 1: Python Generators - Processing Data Without Breaking the Bank
 
 ### The Day I Took Down Production With a Parenthesis
@@ -84,6 +66,13 @@ That $47,000 AWS bill (two days of emergency instances while we recovered) taugh
 ### Here's What I Wish I'd Known: Generators Are Your Safety Net
 
 Generators allow you to process data one item at a time, rather than loading everything into memory at once. They're the difference between a pipeline that scales and one that crashes (and costs you $47,000).
+
+<div style="text-align: center; margin: 2em 0;">
+  <video width="80%" controls loop muted playsinline style="max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+    <source src="../../videos/generators-vs-lists.mp4" type="video/mp4">
+    <p>Your browser does not support the video tag. <a href="../../videos/generators-vs-lists.mp4">Download the video</a> instead.</p>
+  </video>
+</div>
 
 ### Example: Processing a Large CSV File
 
