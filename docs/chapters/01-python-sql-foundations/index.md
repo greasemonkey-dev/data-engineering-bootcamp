@@ -37,12 +37,15 @@ By the end of this chapter, you'll understand not just *what* these tools do, bu
 
 Before we dive into the details, here's a visual explanation of the key difference between memory-hungry list comprehensions and efficient generators:
 
-<video width="100%" controls autoplay loop muted>
-  <source src="../../videos/generators-vs-lists.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="text-align: center; margin: 2em 0;">
+  <video width="80%" controls loop muted playsinline style="max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+    <source src="../../videos/generators-vs-lists.mp4" type="video/mp4">
+    <p>Your browser does not support the video tag. <a href="../../videos/generators-vs-lists.mp4">Download the video</a> instead.</p>
+  </video>
+</div>
 
-**What you just saw:**
+**What you're seeing:**
+
 - **Square → Brackets `[]`**: List comprehensions load everything into memory at once → "Out of Memory"
 - **Circle → Parentheses `()`**: Generators stream data one item at a time → "Streaming ✓"
 
