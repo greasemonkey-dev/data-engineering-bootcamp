@@ -134,6 +134,14 @@ nav:
       - Content: chapters/07-spark-pyspark/index.md
     - Chapter 8 - Kafka & Streaming Data:
       - Content: chapters/08-kafka-streaming/index.md
+    - Chapter 9 - Cloud Data Engineering (GCP):
+      - Content: chapters/09-cloud-gcp/index.md
+    - Chapter 10 - Infrastructure as Code & CI/CD:
+      - Content: chapters/10-iac-cicd/index.md
+    - Chapter 11 - Capstone Project (Design):
+      - Content: chapters/11-capstone-part1/index.md
+    - Chapter 12 - Capstone Project (Implementation):
+      - Content: chapters/12-capstone-part2/index.md
 
   - Interactive MicroSims:
     - SQL Execution Plan Visualizer: sims/sql-execution-plan/spec.md
