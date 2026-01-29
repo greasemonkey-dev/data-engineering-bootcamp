@@ -125,6 +125,15 @@ nav:
     - Chapter 4 - Data Warehousing:
       - Content: chapters/04-data-warehousing/index.md
       - Quiz: chapters/04-data-warehousing/quiz.md
+    - Chapter 5 - ETL/ELT & Apache Airflow:
+      - Content: chapters/05-etl-airflow/index.md
+      - Quiz: chapters/05-etl-airflow/quiz.md
+    - Chapter 6 - Data Quality & Error Handling:
+      - Content: chapters/06-data-quality/index.md
+    - Chapter 7 - Apache Spark & PySpark:
+      - Content: chapters/07-spark-pyspark/index.md
+    - Chapter 8 - Kafka & Streaming Data:
+      - Content: chapters/08-kafka-streaming/index.md
 
   - Interactive MicroSims:
     - SQL Execution Plan Visualizer: sims/sql-execution-plan/spec.md
